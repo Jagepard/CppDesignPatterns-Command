@@ -7,7 +7,7 @@
 #include "Lamp.h"
 #include <iostream>
 
-void Lamp::setCommand(string v, CommandInterface* command)
+void Lamp::setCommand(string v, CommandInterface *command)
 {
     commands.insert(std::make_pair(v, command));
 }
